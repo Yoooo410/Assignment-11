@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		C49883391EBBC4880033427F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C49883381EBBC4880033427F /* main.m */; };
+		C49883431EBBC5440033427F /* Kitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = C49883401EBBC5440033427F /* Kitchen.m */; };
+		C49883441EBBC5440033427F /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = C49883421EBBC5440033427F /* Pizza.m */; };
+		C49883471EBBC9FE0033427F /* FirstManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C49883461EBBC9FE0033427F /* FirstManager.m */; };
+		C498834A1EBBCA0F0033427F /* SecondManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C49883491EBBCA0F0033427F /* SecondManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		C49883351EBBC4880033427F /* Assignment#11 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assignment#11"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49883381EBBC4880033427F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C498833F1EBBC5440033427F /* Kitchen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kitchen.h; sourceTree = "<group>"; };
+		C49883401EBBC5440033427F /* Kitchen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kitchen.m; sourceTree = "<group>"; };
+		C49883411EBBC5440033427F /* Pizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
+		C49883421EBBC5440033427F /* Pizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
+		C49883451EBBC9FE0033427F /* FirstManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstManager.h; sourceTree = "<group>"; };
+		C49883461EBBC9FE0033427F /* FirstManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstManager.m; sourceTree = "<group>"; };
+		C49883481EBBCA0F0033427F /* SecondManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondManager.h; sourceTree = "<group>"; };
+		C49883491EBBCA0F0033427F /* SecondManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				C49883381EBBC4880033427F /* main.m */,
+				C498833F1EBBC5440033427F /* Kitchen.h */,
+				C49883401EBBC5440033427F /* Kitchen.m */,
+				C49883411EBBC5440033427F /* Pizza.h */,
+				C49883421EBBC5440033427F /* Pizza.m */,
+				C49883451EBBC9FE0033427F /* FirstManager.h */,
+				C49883461EBBC9FE0033427F /* FirstManager.m */,
+				C49883481EBBCA0F0033427F /* SecondManager.h */,
+				C49883491EBBCA0F0033427F /* SecondManager.m */,
 			);
 			path = "Assignment#11";
 			sourceTree = "<group>";
@@ -119,6 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C49883471EBBC9FE0033427F /* FirstManager.m in Sources */,
+				C498834A1EBBCA0F0033427F /* SecondManager.m in Sources */,
+				C49883441EBBC5440033427F /* Pizza.m in Sources */,
+				C49883431EBBC5440033427F /* Kitchen.m in Sources */,
 				C49883391EBBC4880033427F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
